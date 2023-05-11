@@ -1,0 +1,11 @@
+{
+  "urls": {
+      "faq": {
+          "label": "Preguntas frecuentes",
+          "href": "/es/preguntas-frecuentes"
+      }
+  },
+  "faq": {
+      "title": "Preguntas frecuentes"
+  }
+}
