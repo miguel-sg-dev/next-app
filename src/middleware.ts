@@ -11,7 +11,7 @@ export async function middleware(req: NextRequest) {
     return;
   }
  
-  if (req.nextUrl.locale === 'default') {
+  if (req.nextUrl.locale === 'default' && req.nextUrl.pathname !== '/') {
     const locale = req.cookies.get('NEXT_LOCALE')?.value || 'es';
  
     return NextResponse.redirect(
